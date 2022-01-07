@@ -4,7 +4,7 @@
   "description": "back-end demo app for Apollo's lift-off IV course",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index",
+    "start": "APOLLO_KEY=service:My-Cat-Graph-me8tu:jBrtz8VlkoPvTWK9YlchHg APOLLO_GRAPH_ID=My-Cat-Graph-me8tu APOLLO_GRAPH_VARIANT=current APOLLO_SCHEMA_REPORTING=true node src/index",
     "dev": "nodemon src/index"
   },
   "dependencies": {
